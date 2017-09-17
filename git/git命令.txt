@@ -1,0 +1,2 @@
+git config --global user.name "Your Name"                       修改用户名
+git config --global user.email "email@example.com"              修改邮箱
