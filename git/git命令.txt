@@ -1,2 +1,9 @@
-git config --global user.name "Your Name"                       �޸��û���
-git config --global user.email "email@example.com"              �޸�����
+git config --global user.name "Your Name"                       改变用户名
+git config --global user.email "email@example.com"              改变邮箱地址
+git init                                                        创建新的版本库
+git add                                                         添加到仓库
+git commit -m "写log信息"                                       提交
+git status                                                      查看仓库状态
+git diff  文件名                                                查看文件变化内容git log                                                         查看所有日志
+git log --pretty=oneline                                        查看最近一条日志HEAD 当前版本  HEAD^ 上一个版本  HEAD^^ 上上一个版本  HEAD~100 上100个版本
+git reset --hard HEAD^
